@@ -1,5 +1,4 @@
-# dbug-twig-extension
-=====================
+# dBug Twig Extension
 
 dBug - https://github.com/sunra/dBug very fine looking(maybe best) html var dumper for PHP.
 
@@ -12,7 +11,7 @@ just like:
 
 
 ## Activation
--------------
+-----
 
 ### in Symfony
 

@@ -1,6 +1,6 @@
 ﻿<?php
 
-namespace Sunra\Dbug\Twig\Extension;
+namespace Sunra\Twig\Extension\DbugExtension;
 
 //use Symfony\Component\DependencyInjection\ContainerInterface;
 

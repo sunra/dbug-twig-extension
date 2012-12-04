@@ -18,7 +18,6 @@
         "sunra/dbug": "dev-master"
     },    
     "autoload": {
-        "psr-0": { "Sunra\\Dbug\\Twig\\Extension\\DbugExtension": "src/" }
-    },
-    "target-dir": "Sunra/Dbug/Twig/Extension"
+        "psr-0": { "Sunra\\Twig\\Extension\\DbugExtension": "src/" }
+    }    
 }

@@ -1,6 +1,7 @@
-﻿<?php
+<?php
 
-namespace Sunra\TwigExtensions\DbugExtension;
+namespace Sunra\TwigExtensions;
+
 
 //use Symfony\Component\DependencyInjection\ContainerInterface;
 
@@ -49,8 +50,8 @@ class DbugExtension extends \Twig_Extension
      *
      * @return string The extension name
      */
-   /* public function getName()
+    public function getName()
     {
         return 'dbug_extension';
-    }*/
+    }
 }

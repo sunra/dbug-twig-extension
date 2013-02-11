@@ -15,11 +15,12 @@ just like:
 ### composer
 
 run
-
-#composer.phar require
+```
+composer.phar require
+```
 and add 
 ```
-"sunra/dbug-twig-extension"
+sunra/dbug-twig-extension
 ```
 
 ### in Symfony

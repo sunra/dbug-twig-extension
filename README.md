@@ -12,6 +12,15 @@ just like:
 
 ## Activation
 -----
+### composer
+
+run
+
+#composer.phar require
+and add 
+```
+"sunra/dbug-twig-extension"
+```
 
 ### in Symfony
 

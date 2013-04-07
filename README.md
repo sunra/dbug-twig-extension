@@ -24,6 +24,11 @@ just like:
 
 ```
 
+and run 
+```
+composer.phar update
+```
+
 ### in Symfony
 
 add to main config, or to specific environment:

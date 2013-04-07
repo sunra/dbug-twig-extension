@@ -10,17 +10,18 @@ just like:
 ```
 
 
-## Activation
+## Installation
 -----
-### composer
+### add to your composer.json
 
-run
-```
-composer.phar require
-```
-and add 
-```
-sunra/dbug-twig-extension
+
+```json
+"require": {
+        ...,
+        "sunra/dbug": "dev-master",
+        "sunra/dbug-twig-extension": "dev-master"
+},
+
 ```
 
 ### in Symfony

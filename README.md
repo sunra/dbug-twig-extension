@@ -48,7 +48,8 @@ services:
 
 ### in Twig template
 
+```twig
 variable|d or variable|dbug
-
+```
 
 

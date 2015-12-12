@@ -38,7 +38,7 @@ class DbugExtension extends \Twig_Extension
     public function sunra_dbug( $var, $forceType="", $bCollapsed=false, $var_name='' )
     {
 		ob_start();
-		new \Ospinto\Dbug($var, $forceType, $bCollapsed, $var_name);
+		new \Ospinto\dBug($var, $forceType, $bCollapsed, $var_name);
 		$html = ob_get_contents();	
 		ob_end_clean();
 		

@@ -22,8 +22,16 @@ class DbugExtension extends \Twig_Extension
     public function getFilters()
     {
         return array(
-            'dbug'  => new \Twig_Filter_Method($this, 'sunra_dbug', array('is_safe' => array('html'))),
-            'd'  => new \Twig_Filter_Method($this, 'sunra_dbug', array('is_safe' => array('html')))
+            new \Twig_SimpleFilter(
+                'dbug',
+                array($this, 'sunra_dbug'),
+                array('is_safe' => array('html'))
+            ),
+            new \Twig_SimpleFilter(
+                'd',
+                array($this, 'sunra_dbug'),
+                array('is_safe' => array('html'))
+            )
         );
     }
     

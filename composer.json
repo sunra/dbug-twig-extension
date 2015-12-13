@@ -1,6 +1,7 @@
 {
     "name": "sunra/dbug-twig-extension",
     "type": "twig-extension",
+    "version": "0.1.0",
     "description": "Enable for Twig dBug class as filter (https://github.com/sunra/dBug)",
     "keywords": ["dbug", "dump", "twig"],
     "homepage": "https://github.com/sunra/dbug-twig-extension",

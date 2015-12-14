@@ -18,8 +18,7 @@ just like:
 ```json
 "require": {
         ...,
-        "sunra/dbug": "dev-master",
-        "sunra/dbug-twig-extension": "dev-master"
+        "sunra/dbug-twig-extension": "0.2.0"
 },
 
 ```
